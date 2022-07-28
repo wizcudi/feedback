@@ -71,13 +71,13 @@ button {
 
 /* BASE */
 .body {
-    background-image: linear-gradient(200deg, #654a86, #534292);
+    background-image: linear-gradient(200deg, #4a5486, #424692);
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 40px 15px;
     scrollbar-width: none;  /* Firefox */
 }
 
@@ -90,6 +90,7 @@ button {
     display: flex;
     justify-content: center;
     height: 850px;
+    
 }
 
 /* HEADINGS */
@@ -577,7 +578,7 @@ button {
 /* MEDIA QUERIES */
 @media (max-height: 925px) {
     .body {
-        padding: 60px 0;
+        padding: 15;
     }
 }
 
@@ -603,14 +604,12 @@ button {
 
 @media (max-width: 775px) {
     .body {
-        padding-top: 0;
-        padding-bottom: 20px;
         align-items: initial;
     }
 
-    .body__container {
+    /* .body__container {
         width: 100vw;
-    }
+    } */
 
     .app {
         width: 100%;
@@ -665,7 +664,5 @@ button {
         display: none;
     }
     
-    .footer {
-        padding: 0 15px;
-    }
+    
 }
